@@ -1,0 +1,16 @@
+{
+  "name": "pelican-test-art-history",
+  "version": "1.0.0",
+  "description": "《鹈鹕测试》——人类自古以来就痴迷于画鹈鹕骑自行车（Procedural Art Animation with p5.js & Web Audio）",
+  "type": "module",
+  "scripts": {
+    "shot": "node tools/shot.mjs",
+    "sheet": "node tools/sheet.mjs",
+    "render": "node tools/render.mjs",
+    "encode": "node tools/encode.mjs"
+  },
+  "dependencies": {
+    "puppeteer-core": "^24.4.0"
+  },
+  "license": "MIT"
+}
